@@ -3,13 +3,14 @@
 -- Engineer: Mohamed Abou Samak - 1973783
 -- 
 -- Create Date: 10.01.2019 18:22:57
--- Design Name: Design Part_1
--- Module Name: part_2 - Behavioral
--- Project Name: 
+-- Design Name: Smart_comb_lock
+-- Module Name: Smart_comb_lock - Behavioral
+-- Project Name: Smart Combination Lock
 -- Target Devices: Nexys 4 DDR
 -- Tool Versions: Vivado 2018.3
--- Description: A simple key combination lock based on binary input; Key sequence: 73783; 0111,0011,0111,1000,0011
--- 
+-- Description: A key combination lock based on binary input; Key sequence: 73783; 0111,0011,0111,1000,0011
+--              two modes are possible one with direct sequence and other with the machine asking for a 
+--              specific key input three times which is randomly chosen.
 -- Additional Comments:
 -- 
 ---------------------------- Clock Generator --------------------------------------
